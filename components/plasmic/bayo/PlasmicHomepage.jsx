@@ -10,6 +10,7 @@
 // Component: joLXbiD8fzxcE
 import * as React from "react";
 import Head from "next/head";
+import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import * as ph from "@plasmicapp/host";
 import {
@@ -136,7 +137,7 @@ function PlasmicHomepage__RenderFunc(props) {
                           )}
                         >
                           {
-                            "Bayo is the best online booking and management software for tour and activity hustle, we go beyond software by saving you money and helping you grow your business."
+                            "Bayo is the best online booking and management software for tour and activity business, we go beyond software by saving you money and helping you grow your business."
                           }
                         </div>
 
@@ -151,6 +152,24 @@ function PlasmicHomepage__RenderFunc(props) {
                           {"Get early access"}
                         </Button>
                       </p.Stack>
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__n4YqS)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"880px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/bayo/images/image3.jpeg",
+                          fullWidth: 801,
+                          fullHeight: 421,
+                          aspectRatio: undefined
+                        }}
+                      />
                     </p.Stack>
                   </p.Stack>
                 </div>
@@ -203,7 +222,7 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {hasVariant(globalVariants, "screen", "mobileOnly")
                               ? "We really mean it! If you like to work absolutely hard, then Bayo isn’t for you. It was built to be intuitive and really easy to use "
-                              : "We really mean it! If you like to work absolutely hard, then Bayo isn’t for you. It was built to be intuitive and really easy to use "}
+                              : "Bayo was built for you so you even your grand mother can use it. We’ve thought the experience so that you can focus on bring the best touring experience to your customers."}
                           </div>
                         }
                       />
@@ -230,7 +249,7 @@ function PlasmicHomepage__RenderFunc(props) {
                           sty.feature__sixoL
                         )}
                         slot={
-                          "An average of 40% of online reservations are made outside of business hours.\nDon’t miss a booking because you’re not by the phone. By offering real-time availability 24/7, you can capture every potential customer, even when you’re away eating that jollof rice or banging to that new Burna Boy song."
+                          "An average of 40% of online reservations are made outside of business hours.\n\nDon’t miss a booking because you’re not by the phone. By offering real-time availability 24/7, you can capture every potential customer, even when you’re away eating that jollof rice or banging to that new Burna Boy song."
                         }
                       >
                         <div
@@ -251,10 +270,26 @@ function PlasmicHomepage__RenderFunc(props) {
                       <Feature
                         className={classNames(
                           "__wab_instance",
+                          sty.feature__umvJz
+                        )}
+                        slot={
+                          "Bayo includes a comprehensive set of advanced reports to keep you on top of your accounting, bookings, and operations.\nWhether you’re tracking souvenir sales or yearly revenue, our live reports provide everything you need to run and improve your business."
+                        }
+                      >
+                        {
+                          "View metrics at a glance, or take a deep dive into your data."
+                        }
+                      </Feature>
+                    ) : null}
+
+                    {true ? (
+                      <Feature
+                        className={classNames(
+                          "__wab_instance",
                           sty.feature__j9LEx
                         )}
                         slot={
-                          "Even when you have a wonderful bestie, you still want to interact with the rest of the world. Bayo can talk with other powerful tool to give even more power. \nExport data and automate workflows through Zapier, Mailchimp, Sendinblue, Google analytics, Notion and more."
+                          "Bayo don't isolate you from other existing powerful marketing tools. Export, sync data and automate workflows through Zapier, Mailchimp, Sendinblue, Google analytics, Notion and more."
                         }
                       >
                         {
@@ -270,12 +305,128 @@ function PlasmicHomepage__RenderFunc(props) {
                           sty.feature__uYcHw
                         )}
                         slot={
-                          "Integrating Bayo inside your existing marketing stack is quick and easy. No need for a developper. When you’re ready to go live, hit a button and share your booking link or embed your booking page everywhere interesting."
+                          "Integrating Bayo inside your existing marketing stack is quick and easy. No need for a developper. When you’re ready to go live, hit a button and share your booking page link or embed your booking page anywhere interesting."
                         }
                       >
                         {"Set it up once. Share it everywhere."}
                       </Feature>
                     ) : null}
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__yDFq9)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___1FnSh
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Created for the simple \nand lazy part of you"
+                        : "Here's a testimony from Ralph, an early user of Bayo."}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__ge2Yj
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                        "Created for the simple \nand lazy part of you"
+                      ) : (
+                        <React.Fragment>
+                          <React.Fragment>
+                            {'"Before discovering Bayo, I was using  '}
+                          </React.Fragment>
+
+                          {
+                            <p.PlasmicLink
+                              data-plasmic-name={"link"}
+                              data-plasmic-override={overrides.link}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.a,
+                                projectcss.__wab_text,
+                                projectcss.plasmic_default__inline,
+                                sty.link
+                              )}
+                              component={Link}
+                              href={"https://lu.ma"}
+                              platform={"nextjs"}
+                            >
+                              {"lu.ma"}
+                            </p.PlasmicLink>
+                          }
+
+                          <React.Fragment>
+                            {
+                              '  to manage registration for my night bike tours. Even though this tool let me gain some time, accepting payment was my biggest struggle. I had to manually verify every single payment through mobile money. Also, my customer churn was very high because when a customer doesn’t pay for RSVP in advance, they tend to not commit to being present at the event.\n\nThen with Bayo, things come out beautifully. I was impressed by how fast I was ready to serve my customer better. Bayo removes the payment headache by allowing me to accept payment directly on the booking page. I can now know exactly how many people will be present at each of my bike sessions. Koin Koin Velo is a side hobby that is turning into an interesting side business for me thanks to Bayo." '
+                            }
+                          </React.Fragment>
+                        </React.Fragment>
+                      )}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__elbp8
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Created for the simple \nand lazy part of you"
+                        : "Ralph G. | Owner of Koin Koin Vélo"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__zlcz
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Created for the simple \nand lazy part of you"
+                        : "Ralph is currenlty building a bike  by night touring business in Cotonou. He start using Bayo 3 months ago."}
+                    </div>
+
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button___9P6Qn
+                      )}
+                      color={"softSand"}
+                      link={"https://rebrand.ly/3j5tb7m"}
+                      size={"compact"}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__vmrWz
+                        )}
+                      >
+                        <React.Fragment>
+                          <React.Fragment>{""}</React.Fragment>
+
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ fontWeight: 700 }}
+                          >
+                            {"View Koin Koin Velo booking page"}
+                          </span>
+
+                          <React.Fragment>{""}</React.Fragment>
+                        </React.Fragment>
+                      </div>
+                    </Button>
                   </div>
                 </div>
 
@@ -284,10 +435,8 @@ function PlasmicHomepage__RenderFunc(props) {
                     className={classNames(projectcss.all, sty.freeBox__lsglb)}
                   >
                     <p.PlasmicImg
-                      data-plasmic-name={"img"}
-                      data-plasmic-override={overrides.img}
                       alt={""}
-                      className={classNames(sty.img)}
+                      className={classNames(sty.img__npAr6)}
                       displayHeight={"auto"}
                       displayMaxHeight={"none"}
                       displayMaxWidth={"100%"}
@@ -311,7 +460,7 @@ function PlasmicHomepage__RenderFunc(props) {
                         sty.h1__nkGMg
                       )}
                     >
-                      {"Bayo want to make your \nbusiness less stressful. "}
+                      {"Let Bayo make your \nbusiness less stressful"}
                     </h1>
 
                     <Button
@@ -351,9 +500,9 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "header2", "img", "svg", "ctaBlock"],
+  root: ["root", "header2", "link", "svg", "ctaBlock"],
   header2: ["header2"],
-  img: ["img"],
+  link: ["link"],
   svg: ["svg"],
   ctaBlock: ["ctaBlock"]
 };
@@ -393,7 +542,7 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     header2: makeNodeComponent("header2"),
-    img: makeNodeComponent("img"),
+    link: makeNodeComponent("link"),
     svg: makeNodeComponent("svg"),
     ctaBlock: makeNodeComponent("ctaBlock"),
     // Metadata about props expected for PlasmicHomepage
