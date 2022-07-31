@@ -123,9 +123,9 @@ function PlasmicHomepage__RenderFunc(props) {
                             sty.h1___5YiyI
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "Collect payments should be easy, simple and beautiful"
-                            : "The simplest an cutest way to run your tour business in west africa"}
+                          {
+                            "The simplest an cutest way to run your tour business in west africa"
+                          }
                         </h1>
 
                         <div
@@ -135,9 +135,9 @@ function PlasmicHomepage__RenderFunc(props) {
                             sty.text__nj5Yk
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "Create high converting sales pages for multi-purposes in seconds. Without hiring a developer, without wordpress, and for free!"
-                            : "Bayo is the best online booking and management software for tour and activity hustle, we go beyond software by saving you money and helping you grow your business."}
+                          {
+                            "Bayo is the best online booking and management software for tour and activity hustle, we go beyond software by saving you money and helping you grow your business."
+                          }
                         </div>
 
                         <Button
@@ -146,6 +146,7 @@ function PlasmicHomepage__RenderFunc(props) {
                             sty.button___2K6B
                           )}
                           color={"yellow"}
+                          link={"https://tally.so/r/3EkDO4"}
                         >
                           {"Get early access"}
                         </Button>
@@ -310,9 +311,7 @@ function PlasmicHomepage__RenderFunc(props) {
                         sty.h1__nkGMg
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Collect payments should be easy, simple and beautiful"
-                        : "Bayo want to makes your business less stressful. What about you?"}
+                      {"Bayo want to make your \nbusiness less stressful. "}
                     </h1>
 
                     <Button
@@ -321,6 +320,7 @@ function PlasmicHomepage__RenderFunc(props) {
                         sty.button__vRjgO
                       )}
                       color={"yellow"}
+                      link={"https://tally.so/r/3EkDO4"}
                     >
                       {"Get early access"}
                     </Button>

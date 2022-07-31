@@ -229,6 +229,11 @@
   position: relative;
   margin-top: calc(40px + 20px) !important;
 }
+@media (min-width: 0px) and (max-width: 767px) {
+  .button___2K6B:global(.__wab_instance) {
+    margin-top: calc(40px + 20px) !important;
+  }
+}
 .svg__vTiNf {
   position: relative;
   object-fit: cover;
@@ -411,8 +416,8 @@
   top: auto;
   height: 240px;
   margin-right: 2px;
-  bottom: -3px;
-  right: 210px;
+  bottom: -13px;
+  right: 584px;
   flex-shrink: 0;
 }
 .ctaBlock:global(.__wab_instance) {
