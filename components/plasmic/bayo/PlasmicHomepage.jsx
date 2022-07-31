@@ -125,7 +125,7 @@ function PlasmicHomepage__RenderFunc(props) {
                           )}
                         >
                           {
-                            "The simplest an cutest way to run your tour business in west africa"
+                            "The simplest and cutest way to run your tour business in west africa"
                           }
                         </h1>
 
@@ -238,7 +238,30 @@ function PlasmicHomepage__RenderFunc(props) {
                           "Bayo is as mobile as you are in your business. We are built from the ground up to work effortless on your mobile devices.  "
                         }
                       >
-                        {"Insta Mobile sees it first."}
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__srFwt
+                          )}
+                        >
+                          <React.Fragment>
+                            <React.Fragment>{""}</React.Fragment>
+
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ textDecorationLine: "line-through" }}
+                            >
+                              {"Insta"}
+                            </span>
+
+                            <React.Fragment>
+                              {" Mobile sees it first."}
+                            </React.Fragment>
+                          </React.Fragment>
+                        </div>
                       </Feature>
                     ) : null}
 
