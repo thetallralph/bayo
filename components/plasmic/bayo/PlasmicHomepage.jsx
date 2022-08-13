@@ -246,8 +246,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           )}
                         >
                           <React.Fragment>
-                            <React.Fragment>{""}</React.Fragment>
-
                             <span
                               className={
                                 "plasmic_default__all plasmic_default__span"
@@ -337,33 +335,29 @@ function PlasmicHomepage__RenderFunc(props) {
                   </div>
 
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__yDFq9)}
+                    className={classNames(projectcss.all, sty.freeBox__nnQwg)}
                   >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text___1FnSh
+                        sty.text__aStmw
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Created for the simple \nand lazy part of you"
-                        : "Here's a testimony from Ralph, an early user of Bayo."}
+                      {"Here's a testimony from Ralph, an early user of Bayo."}
                     </div>
 
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__ge2Yj
+                        sty.text__dUbkt
                       )}
                     >
                       {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                        "Created for the simple \nand lazy part of you"
-                      ) : (
                         <React.Fragment>
                           <React.Fragment>
-                            {'"Before discovering Bayo, I was using  '}
+                            {'"Before discovering Bayo, I was using '}
                           </React.Fragment>
 
                           {
@@ -381,13 +375,56 @@ function PlasmicHomepage__RenderFunc(props) {
                               href={"https://lu.ma"}
                               platform={"nextjs"}
                             >
-                              {"lu.ma"}
+                              {hasVariant(
+                                globalVariants,
+                                "screen",
+                                "mobileOnly"
+                              )
+                                ? "lu.ma"
+                                : "lu.ma"}
                             </p.PlasmicLink>
                           }
 
                           <React.Fragment>
                             {
-                              '  to manage registration for my night bike tours. Even though this tool let me gain some time, accepting payment was my biggest struggle. I had to manually verify every single payment through mobile money. Also, my customer churn was very high because when a customer doesn’t pay for RSVP in advance, they tend to not commit to being present at the event.\n\nThen with Bayo, things come out beautifully. I was impressed by how fast I was ready to serve my customer better. Bayo removes the payment headache by allowing me to accept payment directly on the booking page. I can now know exactly how many people will be present at each of my bike sessions. Koin Koin Velo is a side hobby that is turning into an interesting side business for me thanks to Bayo." '
+                              ' to manage registration for my night bike tours. Even though this tool let me gain some time, accepting payment was my biggest struggle. I had to manually verify every single payment through mobile money. Also, my customer churn was very high because when a customer doesn’t pay for RSVP in advance, they tend to not commit to being present at the event.\n\nThen with Bayo, things come out beautifully. I was impressed by how fast I was ready to serve my customer better. Bayo removes the payment headache by allowing me to accept payment directly on the booking page. I can now know exactly how many people will be present at each of my bike sessions. Koin Koin Velo is a side hobby that is turning into an interesting side business for me thanks to Bayo." '
+                            }
+                          </React.Fragment>
+                        </React.Fragment>
+                      ) : (
+                        <React.Fragment>
+                          <React.Fragment>
+                            {'"Before discovering Bayo, I was using '}
+                          </React.Fragment>
+
+                          {
+                            <p.PlasmicLink
+                              data-plasmic-name={"link"}
+                              data-plasmic-override={overrides.link}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.a,
+                                projectcss.__wab_text,
+                                projectcss.plasmic_default__inline,
+                                sty.link
+                              )}
+                              component={Link}
+                              href={"https://lu.ma"}
+                              platform={"nextjs"}
+                            >
+                              {hasVariant(
+                                globalVariants,
+                                "screen",
+                                "mobileOnly"
+                              )
+                                ? "lu.ma"
+                                : "lu.ma"}
+                            </p.PlasmicLink>
+                          }
+
+                          <React.Fragment>
+                            {
+                              ' to manage registration for my night bike tours. Even though this tool let me gain some time, accepting payment was my biggest struggle. I had to manually verify every single payment through mobile money. Also, my customer churn was very high because when a customer doesn’t pay for RSVP in advance, they tend to not commit to being present at the event.\n\nThen with Bayo, things come out beautifully. I was impressed by how fast I was ready to serve my customer better. Bayo removes the payment headache by allowing me to accept payment directly on the booking page. I can now know exactly how many people will be present at each of my bike sessions. Koin Koin Velo is a side hobby that is turning into an interesting side business for me thanks to Bayo." '
                             }
                           </React.Fragment>
                         </React.Fragment>
@@ -398,30 +435,28 @@ function PlasmicHomepage__RenderFunc(props) {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__elbp8
+                        sty.text__carAn
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Created for the simple \nand lazy part of you"
-                        : "Ralph G. | Owner of Koin Koin Vélo"}
+                      {"Ralph G. | Owner of Koin Koin Vélo"}
                     </div>
 
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__zlcz
+                        sty.text__uSvy9
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Created for the simple \nand lazy part of you"
-                        : "Ralph is currenlty building a bike  by night touring business in Cotonou. He start using Bayo 3 months ago."}
+                      {
+                        "Ralph is currenlty building a bike by night touring business in Cotonou. He started using Bayo 3 months ago."
+                      }
                     </div>
 
                     <Button
                       className={classNames(
                         "__wab_instance",
-                        sty.button___9P6Qn
+                        sty.button__dQfso
                       )}
                       color={"softSand"}
                       link={"https://rebrand.ly/3j5tb7m"}
@@ -431,12 +466,10 @@ function PlasmicHomepage__RenderFunc(props) {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__vmrWz
+                          sty.text__sRCs
                         )}
                       >
                         <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-
                           <span
                             className={
                               "plasmic_default__all plasmic_default__span"
@@ -445,8 +478,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           >
                             {"View Koin Koin Velo booking page"}
                           </span>
-
-                          <React.Fragment>{""}</React.Fragment>
                         </React.Fragment>
                       </div>
                     </Button>
